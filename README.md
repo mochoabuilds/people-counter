@@ -8,9 +8,9 @@
     OpenCV - https://opencv.org/
     dlib - http://dlib.net/a
 
-## 02 Configuring the Edge Computing Device 
+## 02 "The Recipe"
 
-* Ipsum et la
+* This code planning and development was based on a pre-trained MobileNet SSD object detector, dlib's correlations tracker and my own centroid tracking recipe (accepting bounding box coordinates, computing centroids, computing Euclidean distance between new bounding boxes and existing, updating coordinates of exisiting object, registering new objects and deregistering old/lost object out of the frame).
 
 ## 03 Footfall/People Counter (See Attached Code)
 
